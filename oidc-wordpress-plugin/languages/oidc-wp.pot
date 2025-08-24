@@ -1,0 +1,381 @@
+# Copyright (C) 2024 OIDC WordPress Plugin
+# This file is distributed under the same license as the OIDC WordPress Plugin package.
+msgid ""
+msgstr ""
+"Project-Id-Version: OIDC WordPress Plugin 1.0.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/oidc-wp\n"
+"POT-Creation-Date: 2024-01-01 00:00+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2024-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+
+#: includes/class-oidc-wp-plugin.php:123
+msgid "或者使用您的账户登录："
+msgstr ""
+
+#: includes/class-oidc-wp-plugin.php:124
+msgid "OIDC登录"
+msgstr ""
+
+#: includes/class-oidc-wp-plugin.php:150
+msgid "无效的OIDC回调参数"
+msgstr ""
+
+#: includes/class-oidc-wp-plugin.php:155
+msgid "OIDC state验证失败"
+msgstr ""
+
+#: includes/class-oidc-wp-plugin.php:165
+msgid "OIDC认证失败："
+msgstr ""
+
+#: includes/class-oidc-wp-plugin.php:180
+msgid "OIDC配置不完整"
+msgstr ""
+
+#: includes/class-oidc-wp-plugin.php:200
+msgid "OIDC登录"
+msgstr ""
+
+#: includes/class-oidc-wp-settings.php:35
+msgid "OIDC设置"
+msgstr ""
+
+#: includes/class-oidc-wp-settings.php:36
+msgid "OIDC设置"
+msgstr ""
+
+#: includes/class-oidc-wp-settings.php:80
+msgid "基本设置"
+msgstr ""
+
+#: includes/class-oidc-wp-settings.php:86
+msgid "高级设置"
+msgstr ""
+
+#: includes/class-oidc-wp-settings.php:93
+msgid "客户端ID"
+msgstr ""
+
+#: includes/class-oidc-wp-settings.php:100
+msgid "客户端密钥"
+msgstr ""
+
+#: includes/class-oidc-wp-settings.php:107
+msgid "发现URL"
+msgstr ""
+
+#: includes/class-oidc-wp-settings.php:114
+msgid "重定向URI"
+msgstr ""
+
+#: includes/class-oidc-wp-settings.php:121
+msgid "作用域"
+msgstr ""
+
+#: includes/class-oidc-wp-settings.php:128
+msgid "启用OIDC登录"
+msgstr ""
+
+#: includes/class-oidc-wp-settings.php:135
+msgid "自动创建用户"
+msgstr ""
+
+#: includes/class-oidc-wp-settings.php:142
+msgid "自动链接用户"
+msgstr ""
+
+#: includes/class-oidc-wp-settings.php:160
+msgid "设置已保存。"
+msgstr ""
+
+#: includes/class-oidc-wp-settings.php:175
+msgid "使用说明"
+msgstr ""
+
+#: includes/class-oidc-wp-settings.php:176
+msgid "要使用此插件，您需要："
+msgstr ""
+
+#: includes/class-oidc-wp-settings.php:177
+msgid "在OIDC提供商处注册您的WordPress站点"
+msgstr ""
+
+#: includes/class-oidc-wp-settings.php:178
+msgid "获取客户端ID和客户端密钥"
+msgstr ""
+
+#: includes/class-oidc-wp-settings.php:179
+msgid "设置发现URL（通常是OIDC提供商的根URL）"
+msgstr ""
+
+#: includes/class-oidc-wp-settings.php:180
+msgid "配置重定向URI（通常是您的WordPress登录页面）"
+msgstr ""
+
+#: includes/class-oidc-wp-settings.php:183
+msgid "测试连接"
+msgstr ""
+
+#: includes/class-oidc-wp-settings.php:184
+msgid "配置完成后，您可以测试OIDC连接："
+msgstr ""
+
+#: includes/class-oidc-wp-settings.php:185
+msgid "测试登录页面"
+msgstr ""
+
+#: includes/class-oidc-wp-settings.php:195
+msgid "配置OIDC提供商的基本信息。"
+msgstr ""
+
+#: includes/class-oidc-wp-settings.php:200
+msgid "配置OIDC认证的高级选项。"
+msgstr ""
+
+#: includes/class-oidc-wp-settings.php:207
+msgid "从OIDC提供商获取的客户端ID。"
+msgstr ""
+
+#: includes/class-oidc-wp-settings.php:214
+msgid "从OIDC提供商获取的客户端密钥。"
+msgstr ""
+
+#: includes/class-oidc-wp-settings.php:221
+msgid "OIDC提供商的发现URL，例如：https://accounts.google.com/.well-known/openid_configuration"
+msgstr ""
+
+#: includes/class-oidc-wp-settings.php:228
+msgid "OIDC提供商回调的URI地址。"
+msgstr ""
+
+#: includes/class-oidc-wp-settings.php:235
+msgid "请求的OIDC作用域，用空格分隔。"
+msgstr ""
+
+#: includes/class-oidc-wp-settings.php:242
+msgid "在登录页面显示OIDC登录按钮"
+msgstr ""
+
+#: includes/class-oidc-wp-settings.php:249
+msgid "如果用户不存在，自动创建WordPress用户账户"
+msgstr ""
+
+#: includes/class-oidc-wp-settings.php:256
+msgid "自动链接OIDC用户与现有WordPress用户（基于邮箱）"
+msgstr ""
+
+#: includes/class-oidc-wp-settings.php:268
+msgid "请完成OIDC配置以启用OIDC登录功能。"
+msgstr ""
+
+#: includes/class-oidc-wp-auth.php:45
+msgid "OIDC发现URL未配置"
+msgstr ""
+
+#: includes/class-oidc-wp-auth.php:55
+msgid "无法获取OIDC发现文档："
+msgstr ""
+
+#: includes/class-oidc-wp-auth.php:62
+msgid "无效的OIDC发现文档"
+msgstr ""
+
+#: includes/class-oidc-wp-auth.php:75
+msgid "OIDC客户端凭据未配置"
+msgstr ""
+
+#: includes/class-oidc-wp-auth.php:95
+msgid "令牌交换失败："
+msgstr ""
+
+#: includes/class-oidc-wp-auth.php:102
+msgid "无效的令牌响应"
+msgstr ""
+
+#: includes/class-oidc-wp-auth.php:115
+msgid "获取用户信息失败："
+msgstr ""
+
+#: includes/class-oidc-wp-auth.php:122
+msgid "无效的用户信息响应"
+msgstr ""
+
+#: includes/class-oidc-wp-auth.php:140
+msgid "无法找到或创建用户账户"
+msgstr ""
+
+#: includes/class-oidc-wp-auth.php:190
+msgid "创建用户失败："
+msgstr ""
+
+#: includes/class-oidc-wp-discovery.php:45
+msgid "无法获取OIDC发现文档："
+msgstr ""
+
+#: includes/class-oidc-wp-discovery.php:52
+msgid "OIDC发现文档请求失败，状态码：%d"
+msgstr ""
+
+#: includes/class-oidc-wp-discovery.php:58
+msgid "OIDC发现文档内容类型不正确，应为application/json"
+msgstr ""
+
+#: includes/class-oidc-wp-discovery.php:64
+msgid "OIDC发现文档JSON解析失败："
+msgstr ""
+
+#: includes/class-oidc-wp-discovery.php:78
+msgid "OIDC发现文档缺少必需字段：%s"
+msgstr ""
+
+#: includes/class-oidc-wp-discovery.php:88
+msgid "OIDC发现文档字段%s包含无效URL：%s"
+msgstr ""
+
+#: includes/class-oidc-wp-discovery.php:95
+msgid "生产环境要求OIDC提供商使用HTTPS，字段%s：%s"
+msgstr ""
+
+#: includes/class-oidc-wp-discovery.php:120
+msgid "OIDC发现文档连接成功"
+msgstr ""
+
+#: includes/class-oidc-wp-jwt.php:35
+msgid "不安全的JWT算法"
+msgstr ""
+
+#: includes/class-oidc-wp-jwt.php:50
+msgid "无效的JWT格式"
+msgstr ""
+
+#: includes/class-oidc-wp-jwt.php:56
+msgid "JWT头部JSON解析失败"
+msgstr ""
+
+#: includes/class-oidc-wp-jwt.php:68
+msgid "JWT载荷JSON解析失败"
+msgstr ""
+
+#: includes/class-oidc-wp-jwt.php:78
+msgid "JWT发行者不匹配，期望：%s，实际：%s"
+msgstr ""
+
+#: includes/class-oidc-wp-jwt.php:85
+msgid "JWT缺少受众声明"
+msgstr ""
+
+#: includes/class-oidc-wp-jwt.php:92
+msgid "JWT受众不包含客户端ID：%s"
+msgstr ""
+
+#: includes/class-oidc-wp-jwt.php:99
+msgid "JWT受众不匹配，期望：%s，实际：%s"
+msgstr ""
+
+#: includes/class-oidc-wp-jwt.php:106
+msgid "JWT缺少主题声明"
+msgstr ""
+
+#: includes/class-oidc-wp-jwt.php:113
+msgid "JWT nonce验证失败"
+msgstr ""
+
+#: includes/class-oidc-wp-jwt.php:125
+msgid "JWT签发时间在未来"
+msgstr ""
+
+#: includes/class-oidc-wp-jwt.php:132
+msgid "JWT已过期"
+msgstr ""
+
+#: includes/class-oidc-wp-jwt.php:139
+msgid "JWT尚未生效"
+msgstr ""
+
+#: includes/class-oidc-wp-jwt.php:155
+msgid "JWT签名验证失败"
+msgstr ""
+
+#: includes/class-oidc-wp-jwt.php:200
+msgid "从JWT提取用户信息失败："
+msgstr ""
+
+#: includes/class-oidc-wp-user-manager.php:45
+msgid "无法找到或创建用户账户"
+msgstr ""
+
+#: includes/class-oidc-wp-user-manager.php:190
+msgid "创建用户失败："
+msgstr ""
+
+#: assets/js/frontend.js:25
+msgid "登录成功！"
+msgstr ""
+
+#: assets/js/frontend.js:26
+msgid "登录失败，请重试。"
+msgstr ""
+
+#: assets/js/admin.js:25
+msgid "请填写客户端ID和发现URL"
+msgstr ""
+
+#: assets/js/admin.js:40
+msgid "OIDC连接测试成功！"
+msgstr ""
+
+#: assets/js/admin.js:41
+msgid "OIDC连接测试失败："
+msgstr ""
+
+#: assets/js/admin.js:47
+msgid "OIDC连接测试失败：网络错误"
+msgstr ""
+
+#: assets/js/admin.js:70
+msgid "常见OIDC发现URL示例："
+msgstr ""
+
+#: assets/js/admin.js:73
+msgid "点击任意示例可自动填充到发现URL字段"
+msgstr ""
+
+#: assets/js/admin.js:85
+msgid "已生成重定向URI："
+msgstr ""
+
+#: assets/js/admin.js:95
+msgid "请填写必填字段：客户端ID和发现URL"
+msgstr ""
+
+#: assets/js/admin.js:102
+msgid "发现URL格式不正确"
+msgstr ""
+
+#: assets/js/admin.js:108
+msgid "重定向URI格式不正确"
+msgstr ""
+
+#: assets/js/admin.js:140
+msgid "从OIDC提供商获取的客户端标识符"
+msgstr ""
+
+#: assets/js/admin.js:141
+msgid "从OIDC提供商获取的客户端密钥"
+msgstr ""
+
+#: assets/js/admin.js:142
+msgid "OIDC提供商的发现文档URL"
+msgstr ""
+
+#: assets/js/admin.js:143
+msgid "OIDC提供商回调的URI地址"
+msgstr ""
+
+#: assets/js/admin.js:144
+msgid "请求的OIDC作用域，用空格分隔"
+msgstr ""
